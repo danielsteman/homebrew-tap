@@ -2,7 +2,7 @@ class Bundlecues < Formula
   desc "Validate Databricks asset bundles using CUE"
   homepage "https://github.com/danielsteman/bundlecues"
   url "https://github.com/danielsteman/bundlecues/releases/download/v0.1.0/bundlecues_darwin_arm64.tar.gz"
-  sha256 "8e3ffa3994a3dee75f127a3aaa78010c39f454021c544d760de795025a69e7f7"
+  sha256 "091c254d5a215880a5944c0c8b371b87e058ca3748d966fe8f596c898dfb65a0"
   license "MIT"
 
   def install
