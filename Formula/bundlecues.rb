@@ -7,10 +7,10 @@ class Bundlecues < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/danielsteman/bundle-cues/releases/download/v0.1.1/bundlecues_darwin_arm64.tar.gz"
-      sha256 "091c254d5a215880a5944c0c8b371b87e058ca3748d966fe8f596c898dfb65a0"
+      sha256 "4ebbeeda96c14765af60cf4c6ef103ded9671980b16056835aa4f6e5ce637f49"
     elsif Hardware::CPU.intel?
       url "https://github.com/danielsteman/bundle-cues/releases/download/v0.1.1/bundlecues_darwin_amd64.tar.gz"
-      sha256 "fb5a979b5f32314784e7186b0529c4cf280f50852b75f1fc9f2ce4d8c91cdc41"
+      sha256 "68451049ecaa19cdb1cb2469870b13cafc7ed25bd732e21f373fc13097d4eed2"
     end
   end
 
